@@ -22,6 +22,7 @@ public class Plat {
         this.nom_plat = nom_plat;
         this.prix_unitaire = prix_unitaire;
     }
+
     @Override
     public  String toString(){
 String prixFormat= String.format("%9.2f",prix_unitaire);
